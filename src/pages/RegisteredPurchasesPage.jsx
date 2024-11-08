@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { getSales } from '../services/apiService';
+import { getSales } from '../services/apiService.js';
 
 const RegisteredPurchasesPage = () => {
   const [sales, setSales] = useState([]);

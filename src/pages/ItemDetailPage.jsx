@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { getItemById, createSale } from '../services/apiService';
+import { getItemById, createSale } from '../services/apiService.js';
 
 const ItemDetailPage = () => {
   const { id } = useParams();

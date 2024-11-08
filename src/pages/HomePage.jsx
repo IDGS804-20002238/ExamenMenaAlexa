@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useNavigate } from 'react-router-dom';
-import { getItems } from '../services/apiService';
+import { getItems } from '../services/apiService.js';
 
 const HomePage = () => {
   const navigate = useNavigate();
