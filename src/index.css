@@ -1,0 +1,87 @@
+ /* Estilos generales */
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos del contenedor principal */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.container {
+  text-align: center;
+  max-width: 300px;
+  width: 100%;
+}
+
+/* Estilos del ícono */
+.icon {
+  font-size: 80px;
+  color: black;
+}
+
+/* Estilos del título */
+.title {
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+/* Estilos del input de búsqueda */
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-container input[type="text"] {
+  border: 2px solid black;
+  border-radius: 30px;
+  padding: 10px 15px;
+  font-size: 1em;
+  outline: none;
+  width: 100%;
+  max-width: 200px;
+}
+
+.search-container .search-icon {
+  position: absolute;
+  margin-left: 10px;
+  font-size: 1em;
+  color: black;
+}
+
+/* Estilos del botón */
+.search-button {
+  padding: 10px 20px;
+  font-size: 1em;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-button:hover {
+  background-color: #f0f0f0;
+}
+
+.container1 {
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    ". ."; 
+}
